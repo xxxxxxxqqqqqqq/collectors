@@ -1,0 +1,5 @@
+# Project exclude paths
+/spring-boot-empty/target/
+/spring-boot-quartz/target/
+*.iml
+.idea
