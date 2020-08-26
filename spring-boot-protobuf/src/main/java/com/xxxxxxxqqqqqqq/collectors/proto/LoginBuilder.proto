@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "com.example.demo.vo";
+option java_outer_classname = "LoginBuilder";
+
+message LoginRequest {
+    string username = 1;
+    string pwd = 2;
+}
+
+message LoginResponse {
+    string access_token = 1;
+    string username = 2;
+}
